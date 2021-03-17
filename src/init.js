@@ -1,9 +1,7 @@
+import gameState from "./gameState";
+
 //Screaming case used to show this is not a standard variable.
 const TICK_RATE = 3000;
-
-const tick = () => {
-  console.log("tick", Date.now());
-}
 
 const init = () => {
   console.log('starting game');
@@ -16,7 +14,7 @@ const init = () => {
 
     //scheduling the tick function once it's ready
     if(nextTimeToTick <= now){
-      tick();
+      gameState.tick();
       nextTimeToTick = now + TICK_RATE;
     }
 
