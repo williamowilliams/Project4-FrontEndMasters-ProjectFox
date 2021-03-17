@@ -12,10 +12,12 @@
   "devDependencies": {
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
-    "parcel-bundler": "^1.12.5",
     "prettier": "^2.2.1"
   },
   "browserslist": [
     "last 2 Chrome versions"
-  ]
+  ],
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
 }
