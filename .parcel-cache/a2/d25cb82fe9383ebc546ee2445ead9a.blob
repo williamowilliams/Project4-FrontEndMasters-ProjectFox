@@ -1,0 +1,12 @@
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+_parcelHelpers.defineInteropFlag(exports);
+const gameState = {
+  current: "INIT",
+  clock: 1,
+  tick() {
+    this.clock++;
+    console.log('clock', this.clock);
+    return this.clock;
+  }
+};
+exports.default = gameState;

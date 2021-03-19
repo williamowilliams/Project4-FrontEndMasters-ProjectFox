@@ -1,0 +1,270 @@
+.btn {
+  background-image: url(f0f9df3486d5fb2e849ed920a8a90c56);
+  background-position: 0px;
+  width: 62px;
+  height: 65px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.btn.middle-btn {
+  background-position: -84px 0px;
+}
+
+.btn.right-btn {
+  background-position: -167px 0px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-image: url(18c14a1a2047784b02d3ba0a96598954);
+}
+
+.btn:active {
+  background-image: url(bb8180ecdb2fb7c21170cb92f0d3640e);
+}
+
+.icon {
+  background-image: url(2bce75b6a1981b59f9fcab36f5903680);
+  background-position: 0px;
+  width: 56px;
+  height: 65px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.icon.poop-icon {
+  background-position: -162px 0px;
+}
+
+.icon.weather-icon {
+  background-position: -323px 0px;
+}
+
+.icon.highlighted {
+  background-image: url(ddcabe717ce525f2378249098867e8bd);
+}
+
+.icon.active {
+  background-image: url(0fecffa444443992933620dad87b1c15);
+}
+
+.fox-static {
+  background-image: url(f6cd2e66d24c82b48eae9b801db67104);
+  width: 117px;
+  height: 165px;
+}
+
+.fox-idling {
+  background-image: url(011fb30d770d3578dd73f2eaea5c0372);
+  background-repeat: no-repeat;
+  width: 117px;
+  height: 165px;
+  animation: idle 2s steps(3) infinite;
+}
+
+@keyframes idle {
+  to {
+    background-position: -372px;
+  }
+}
+
+.fox.fox-pooping {
+  background-image: url(cca2db93515d29e0102d29e9113cd3cb);
+  background-position: -1836px;
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 202px;
+  animation: pooping 5s steps(10);
+}
+
+.fox.fox-pooped {
+  background-image: url(cca2db93515d29e0102d29e9113cd3cb);
+  background-position: -1836px;
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 202px;
+}
+
+@keyframes pooping {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -2040px;
+  }
+}
+
+.fox-celebrate.fox {
+  background-image: url(d776a2775b91b71baf1571af49391361);
+  background-repeat: no-repeat;
+  width: 130.8px;
+  height: 213px;
+  animation: celebrate 2s steps(5) infinite;
+}
+
+@keyframes celebrate {
+  to {
+    background-position: -654px;
+  }
+}
+
+.fox-rain.fox {
+  background-image: url(b6940551352f9476ec52a7bfc0ff0b52);
+  background-repeat: no-repeat;
+  width: 134px;
+  height: 153px;
+  animation: sit-in-the-rain 2s steps(5) infinite alternate;
+}
+
+@keyframes sit-in-the-rain {
+  to {
+    background-position: -670px;
+  }
+}
+
+.fox-hungry.fox {
+  background-image: url(5f58623a01ee1bce599b6bfdf8885d34);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 160px;
+  top: 339px;
+  animation: hungry 1s steps(2) infinite;
+}
+
+@keyframes hungry {
+  to {
+    background-position: -260px;
+  }
+}
+
+.fox-eating.fox {
+  background-image: url(066cd39cbe6eae50f78c64d14afcf99d);
+  background-position: -1865.7px;
+  background-repeat: no-repeat;
+  width: 207.3px;
+  height: 148px;
+  top: 358px;
+  left: 81px;
+  animation: eating 3s steps(10);
+}
+
+@keyframes eating {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -2073px;
+  }
+}
+
+.fox-egg.fox {
+  background-image: url(9eae587bc64947e2440383339737b1cf);
+  background-repeat: no-repeat;
+  background-position: -1050px;
+  width: 175px;
+  height: 217px;
+  animation: hatching 4s steps(7);
+}
+
+@keyframes hatching {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -1225px;
+  }
+}
+
+.fox-dead.fox {
+  background-image: url(301300919281aada1b9358adb371192c);
+  background-repeat: no-repeat;
+  width: 118px;
+  height: 119px;
+  animation: being-dead 1s steps(3) infinite;
+}
+
+@keyframes being-dead {
+  to {
+    background-position: -354px;
+  }
+}
+
+.fox-sleep.fox {
+  background-image: url(aa7fa0e712e2ea728e41dbf5fdab7847);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 155px;
+  animation: sleeping 4s steps(4) infinite;
+}
+
+@keyframes sleeping {
+  to {
+    background-position: -1000px;
+  }
+}
+
+.foreground-rain {
+  display: none;
+  background-image: url(bfbbd1717ad423e33c1452beb548efed);
+  animation: raining 0.5s steps(3) infinite;
+  width: 606px;
+  height: 516px;
+  overflow: hidden;
+  position: absolute;
+  top: 56px;
+  left: 60px;
+}
+
+.rain ~ .foreground-rain {
+  display: block;
+}
+
+@keyframes raining {
+  to {
+    background-position: -1818px;
+  }
+}
+
+.poop-bag {
+  background-image: url(86c7c7dced5c47aadafdaa499dac8285);
+  animation: swing-poop-bag 1s steps(3) infinite alternate;
+  width: 99px;
+  height: 104px;
+  overflow: hidden;
+}
+
+@keyframes swing-poop-bag {
+  to {
+    background-position: -297px;
+  }
+}
+
+.frame {
+  background-image: url(7049aa077a553e115159106abf414897);
+}
+
+.game {
+  background-image: url(344bd0fa4d3a02eb2f7dd703b6ba6345);
+}
+
+.game.night {
+  background-image: url(40d0b6072871302aa9cc615468828309);
+}
+
+.game.dead {
+  background-image: url(750827d00b2f139c8c832fee51d25d66);
+}
+
+.game.rain {
+  background-image: url(2f6a8dcea97aae85283701fee700c83a);
+}
+
+body {
+  background-image: url(6454c9b89d6e788cb65cc004742ae240);
+}

@@ -1,0 +1,272 @@
+.btn {
+  background-image: url(NotSelected.HASH_REF_6f368900b126cbbf8b01c68b16305803.png);
+  background-position: 0px;
+  width: 62px;
+  height: 65px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.btn.middle-btn {
+  background-position: -84px 0px;
+}
+
+.btn.right-btn {
+  background-position: -167px 0px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-image: url(Hover.HASH_REF_765152d089680aaeb612ee5f8f13ea28.png);
+}
+
+.btn:active {
+  background-image: url(Selected.HASH_REF_ed0df48b72e37dbb654d6c59aded3c16.png);
+}
+
+.icon {
+  background-image: url(NotSelected.HASH_REF_da2ed65c504996663ba2394d5aa74506.png);
+  background-position: 0px;
+  width: 56px;
+  height: 65px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.icon.poop-icon {
+  background-position: -162px 0px;
+}
+
+.icon.weather-icon {
+  background-position: -323px 0px;
+}
+
+.icon.highlighted {
+  background-image: url(Hover.HASH_REF_661347f66a89228e71dc62e5b1441005.png);
+}
+
+.icon.active {
+  background-image: url(Selected.HASH_REF_51e78f93e47c582d8bef833b10736af3.png);
+}
+
+.fox-static {
+  background-image: url(FoxBase.HASH_REF_b56cb6d0a4ba5af5d8571c17265fcedd.png);
+  width: 117px;
+  height: 165px;
+}
+
+.fox-idling {
+  background-image: url(AtRest.HASH_REF_368726699f633cc622de37cc3d010b83.png);
+  background-repeat: no-repeat;
+  width: 117px;
+  height: 165px;
+  animation: idle 2s steps(3) infinite;
+}
+
+@keyframes idle {
+  to {
+    background-position: -372px;
+  }
+}
+
+.fox.fox-pooping {
+  background-image: url(Pooping.HASH_REF_bdf8ba7c9fa0d242124457920f3be9f3.png);
+  background-position: -1836px;
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 202px;
+  animation: pooping 5s steps(10);
+}
+
+.fox.fox-pooped {
+  background-image: url(Pooping.HASH_REF_bdf8ba7c9fa0d242124457920f3be9f3.png);
+  background-position: -1836px;
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 202px;
+}
+
+@keyframes pooping {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -2040px;
+  }
+}
+
+.fox-celebrate.fox {
+  background-image: url(Yay.HASH_REF_d482f7840f9548022ef5dcd034478b2b.png);
+  background-repeat: no-repeat;
+  width: 130.8px;
+  height: 213px;
+  animation: celebrate 2s steps(5) infinite;
+}
+
+@keyframes celebrate {
+  to {
+    background-position: -654px;
+  }
+}
+
+.fox-rain.fox {
+  background-image: url(Rain.HASH_REF_c99ee8509bc54f6473b589772ca4ddcd.png);
+  background-repeat: no-repeat;
+  width: 134px;
+  height: 153px;
+  animation: sit-in-the-rain 2s steps(5) infinite alternate;
+}
+
+@keyframes sit-in-the-rain {
+  to {
+    background-position: -670px;
+  }
+}
+
+.fox-hungry.fox {
+  background-image: url(Hungry.HASH_REF_e5a449d32e9b076af7a968b94b386814.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 160px;
+  top: 339px;
+  animation: hungry 1s steps(2) infinite;
+}
+
+@keyframes hungry {
+  to {
+    background-position: -260px;
+  }
+}
+
+.fox-eating.fox {
+  background-image: url(Eating.HASH_REF_50f05445dc3446164940d34a80974f07.png);
+  background-position: -1865.7px;
+  background-repeat: no-repeat;
+  width: 207.3px;
+  height: 148px;
+  top: 358px;
+  left: 81px;
+  animation: eating 3s steps(10);
+}
+
+@keyframes eating {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -2073px;
+  }
+}
+
+.fox-egg.fox {
+  background-image: url(Egg.HASH_REF_cbd08c4af8c9eed388a5d8f242bcff77.png);
+  background-repeat: no-repeat;
+  background-position: -1050px;
+  width: 175px;
+  height: 217px;
+  animation: hatching 4s steps(7);
+}
+
+@keyframes hatching {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -1225px;
+  }
+}
+
+.fox-dead.fox {
+  background-image: url(TombStone.HASH_REF_1a245fee539830dcc6fa5e3680419063.png);
+  background-repeat: no-repeat;
+  width: 118px;
+  height: 119px;
+  animation: being-dead 1s steps(3) infinite;
+}
+
+@keyframes being-dead {
+  to {
+    background-position: -354px;
+  }
+}
+
+.fox-sleep.fox {
+  background-image: url(Sleeping.HASH_REF_6a722ad368e5ab301fb63e2646b5020b.png);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 155px;
+  animation: sleeping 4s steps(4) infinite;
+}
+
+@keyframes sleeping {
+  to {
+    background-position: -1000px;
+  }
+}
+
+.foreground-rain {
+  display: none;
+  background-image: url(rain.HASH_REF_a8265b49cb982e17c43bc89712caa90b.png);
+  animation: raining 0.5s steps(3) infinite;
+  width: 606px;
+  height: 516px;
+  overflow: hidden;
+  position: absolute;
+  top: 56px;
+  left: 60px;
+}
+
+.rain ~ .foreground-rain {
+  display: block;
+}
+
+@keyframes raining {
+  to {
+    background-position: -1818px;
+  }
+}
+
+.poop-bag {
+  background-image: url(PoopBag.HASH_REF_9c850453bcbe885906559bd077e78048.png);
+  animation: swing-poop-bag 1s steps(3) infinite alternate;
+  width: 99px;
+  height: 104px;
+  overflow: hidden;
+}
+
+@keyframes swing-poop-bag {
+  to {
+    background-position: -297px;
+  }
+}
+
+.frame {
+  background-image: url(FRAME.HASH_REF_670d23f25d3adddcbe6abc76dba5c9ea.png);
+}
+
+.game {
+  background-image: url(DAY.HASH_REF_355f6eddc384496cde25bb3e4099b185.png);
+}
+
+.game.night {
+  background-image: url(NIGHT.HASH_REF_08e9864fad5de3aa42c4c4daa1696706.png);
+}
+
+.game.dead {
+  background-image: url(DEAD.HASH_REF_08ff0794fa9edf794d9ac58a81962f89.png);
+}
+
+.game.rain {
+  background-image: url(RAINY.HASH_REF_a5e03d426d0cb3ac50489bd0cb3746e1.png);
+}
+
+body {
+  background-image: url(Canvas.HASH_REF_d04d7148db19c478f6e81e268da89bd0.png);
+}
+
+/*# sourceMappingURL=index.HASH_REF_6a80c6bd9d7cde024fce714e9a5cd9b3.css.map */
